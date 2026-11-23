@@ -1,0 +1,47 @@
+{
+  "project": "侨批活动后的多语转述和跨校发布",
+  "material_title": "活动速记、侨批馆藏目录和多语校稿",
+  "material_nature": "本地合成演练资料",
+  "records": [
+    {
+      "kind": "archive",
+      "id": "a1",
+      "text": "藏品H9|侨批作者称呼“阿嬷”，要求家中不要牵挂。原信影像可读。"
+    },
+    {
+      "kind": "creation",
+      "id": "c1",
+      "text": "电影文本|《给阿嬷的情书》创作句：“江海万里，心中念你，便不觉遥远。”不属于H9原信。"
+    },
+    {
+      "kind": "note",
+      "id": "n1",
+      "text": "听讲速记|学生跟读 c1，备注写“侨批里有句江海万里”。"
+    },
+    {
+      "kind": "note",
+      "id": "n2",
+      "text": "学生自述|巴拿马学生表示，看到实物后感到侨批不只是银钱与信件，也是亲情牵挂。"
+    },
+    {
+      "kind": "translation",
+      "id": "t1",
+      "text": "返校英文初稿|The migrant wrote, “The sea is wide, yet you are never far.” No archive ID retained."
+    },
+    {
+      "kind": "translation",
+      "id": "t2",
+      "text": "另一校葡语校稿|旁听者的感想作为信件原文译文。"
+    },
+    {
+      "kind": "release",
+      "id": "r1",
+      "text": "领取登记|两校各领了同一版课堂介绍，但未确认授课日期。"
+    },
+    {
+      "kind": "correction",
+      "id": "r2",
+      "text": "馆员留言|影像没有c1句子，展签要区分档案文字和现代影视创作。"
+    }
+  ]
+}

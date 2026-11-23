@@ -1,47 +1,103 @@
 {
-  "project": "侨批活动后的多语转述和跨校发布",
-  "material_title": "活动速记、侨批馆藏目录和多语校稿",
+  "project": "国际访学团多语请求与导览接力排程",
   "material_nature": "本地合成演练资料",
   "records": [
     {
-      "kind": "archive",
-      "id": "a1",
-      "text": "藏品H9|侨批作者称呼“阿嬷”，要求家中不要牵挂。原信影像可读。"
+      "id": "P1",
+      "kind": "成员",
+      "text": "梁遥，能听普通话，专业词需要英语字幕。成年，本人提交。",
+      "arrival_order": 1,
+      "references": []
     },
     {
-      "kind": "creation",
-      "id": "c1",
-      "text": "电影文本|《给阿嬷的情书》创作句：“江海万里，心中念你，便不觉遥远。”不属于H9原信。"
+      "id": "P2",
+      "kind": "成员",
+      "text": "伊娃，英语口语和阅读均可；楼内轮椅通行，街区步行可由本人决定是否使用陪行。本人口头补充。",
+      "arrival_order": 2,
+      "references": []
     },
     {
-      "kind": "note",
-      "id": "n1",
-      "text": "听讲速记|学生跟读 c1，备注写“侨批里有句江海万里”。"
+      "id": "P3",
+      "kind": "成员",
+      "text": "娜迪亚，中文问路没问题，偏好个人问题留给她本人；不接受临时拆组。本人表单确认。",
+      "arrival_order": 3,
+      "references": []
     },
     {
-      "kind": "note",
-      "id": "n2",
-      "text": "学生自述|巴拿马学生表示，看到实物后感到侨批不只是银钱与信件，也是亲情牵挂。"
+      "id": "G1",
+      "kind": "团组",
+      "text": "海滨学院访学团，5人，包括上述三名登记成员，入馆窗口14:00-15:30，15:40在东门集合，16:00有巴士。",
+      "arrival_order": 4,
+      "references": [
+        "P1",
+        "P2",
+        "P3"
+      ]
     },
     {
-      "kind": "translation",
-      "id": "t1",
-      "text": "返校英文初稿|The migrant wrote, “The sea is wide, yet you are never far.” No archive ID retained."
+      "id": "G2",
+      "kind": "代填",
+      "text": "带队教师填全团“英语导览即可”，未征得每位成年人对讲解语言及字幕的意见。",
+      "arrival_order": 5,
+      "references": []
     },
     {
-      "kind": "translation",
-      "id": "t2",
-      "text": "另一校葡语校稿|旁听者的感想作为信件原文译文。"
+      "id": "S1",
+      "kind": "场馆",
+      "text": "侨批馆14:00-14:35有一名英语讲解员，屏幕字幕可选英文。展厅轮椅路线需10分钟转场。",
+      "arrival_order": 6,
+      "references": [
+        "P1",
+        "P2"
+      ]
     },
     {
-      "kind": "release",
-      "id": "r1",
-      "text": "领取登记|两校各领了同一版课堂介绍，但未确认授课日期。"
+      "id": "S2",
+      "kind": "场馆",
+      "text": "开埠街14:50-15:30有一名潮汕话讲解员和一部流动口译设备，可由英语转述。轮椅路线通行，但需12分钟转场。",
+      "arrival_order": 7,
+      "references": [
+        "P2",
+        "P3"
+      ]
     },
     {
-      "kind": "correction",
-      "id": "r2",
-      "text": "馆员留言|影像没有c1句子，展签要区分档案文字和现代影视创作。"
+      "id": "M1",
+      "kind": "集合",
+      "text": "两处场馆共用团体预约号H38，预约窗口不可拆分或延长。各点到东门实际步行至少15分钟。",
+      "arrival_order": 8,
+      "references": []
+    },
+    {
+      "id": "V1",
+      "kind": "资源",
+      "text": "英语讲解员14:00-14:35已排G1，且独自负责另一组14:40的开场交接，不能两处同时服务。",
+      "arrival_order": 9,
+      "references": [
+        "G1",
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "id": "V2",
+      "kind": "变更",
+      "text": "当天设备检修，流动口译最早15:05送达开埠街。巴士仍于16:00离开。",
+      "arrival_order": 10,
+      "references": [
+        "V1",
+        "P3"
+      ]
+    },
+    {
+      "id": "N1",
+      "kind": "确认",
+      "text": "P1同意设备晚到后先看展柜再读字幕。P3不接受改为单独听预录音。P2尚未决定街区是否使用陪行。",
+      "arrival_order": 11,
+      "references": [
+        "G1",
+        "V1"
+      ]
     }
   ]
 }
